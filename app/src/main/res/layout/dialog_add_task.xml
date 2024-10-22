@@ -1,0 +1,68 @@
+<!-- res/layout/dialog_add_task.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="412dp"
+    android:layout_height="420dp"
+    android:background="@drawable/untitled_design__1_"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_text_task_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/task_name"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_text_task_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/task_description"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_view_task_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/select_date"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_select_date"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#213081"
+        android:text="@string/select_date_"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_view_task_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/select_time"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_select_time"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#213081"
+        android:text="@string/select_time__"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_save_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="120dp"
+        android:backgroundTint="#213081"
+        android:text="@string/save"
+        android:textColor="#D1D0C2"
+        android:textStyle="bold" />
+</LinearLayout>

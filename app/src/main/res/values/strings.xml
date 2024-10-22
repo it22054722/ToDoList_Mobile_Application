@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FocusTime</string>
+    <string name="tasks">--Tasks--</string>
+    <string name="add_task">Add Task</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="task_name">Task Name</string>
+    <string name="task_description">Task Description</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_date_">Select Date</string>
+    <string name="select_time">Select Time</string>
+    <string name="select_time__">Select Time</string>
+    <string name="save">Save</string>
+</resources>
